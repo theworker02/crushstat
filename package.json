@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/crushstat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Crush timestamps and stat durations for scripts and CI receipts.",
+  "bin": {
+    "crushstat": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/crushstat.git"
+  },
+  "homepage": "https://theworker02.github.io/crushstat/",
+  "keywords": [
+    "crush",
+    "stat",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
